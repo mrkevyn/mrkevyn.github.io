@@ -1,0 +1,69 @@
+/* Estilos dos cartões de partidas */
+.match-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.match-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do nome das equipes */
+.match-card .team-name {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos detalhes da partida */
+.match-card .match-details {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 12px;
+}
+
+/* Estilo do status da partida */
+.status {
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+/* Cores dos diferentes status */
+.status-scheduled { background-color: #007bff; color: #fff; }
+.status-in_play { background-color: #28a745; color: #fff; }
+.status-paused { background-color: #ffc107; color: #000; }
+.status-finished { background-color: #dc3545; color: #fff; }
+.status-postponed { background-color: #6c757d; color: #fff; }
+.status-timed { background-color: #20c997; color: #fff;}
+
+/* Estilo do título do cartão */
+.card-title {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #007bff, #28a745);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Estilo da lista sem estilos */
+.list-unstyled li {
+    padding: 10px 0;
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Estilo do ícone na lista */
+.list-unstyled li i {
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.2rem;
+}
